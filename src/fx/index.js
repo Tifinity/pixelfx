@@ -27,7 +27,9 @@ import * as fire_torch from "./fire/torch.js";
 import * as explosions_barrel_explosion from "./explosions/barrel-explosion.js";
 import * as explosions_big_explosion from "./explosions/big-explosion.js";
 import * as explosions_cartoon_pow from "./explosions/cartoon-pow.js";
+import * as explosions_directional_fire_burst from "./explosions/directional-fire-burst.js";
 import * as explosions_dirt_explosion from "./explosions/dirt-explosion.js";
+import * as explosions_fire_lance_burst from "./explosions/fire-lance-burst.js";
 import * as explosions_firework_burst from "./explosions/firework-burst.js";
 import * as explosions_firework_rocket from "./explosions/firework-rocket.js";
 import * as explosions_grenade from "./explosions/grenade.js";
@@ -93,10 +95,13 @@ import * as melee_sword_slash from "./melee/sword-slash.js";
 import * as melee_thrust from "./melee/thrust.js";
 import * as melee_uppercut from "./melee/uppercut.js";
 import * as melee_whip_crack from "./melee/whip-crack.js";
+import * as impacts_axe_body_hit from "./impacts/axe-body-hit.js";
 import * as impacts_blunt_hit from "./impacts/blunt-hit.js";
 import * as impacts_bullet_impact from "./impacts/bullet-impact.js";
 import * as impacts_crit_hit from "./impacts/crit-hit.js";
+import * as impacts_dagger_body_hit from "./impacts/dagger-body-hit.js";
 import * as impacts_ground_slam from "./impacts/ground-slam.js";
+import * as impacts_hammer_body_hit from "./impacts/hammer-body-hit.js";
 import * as impacts_heavy_landing from "./impacts/heavy-landing.js";
 import * as impacts_hit_flash from "./impacts/hit-flash.js";
 import * as impacts_hit_spark from "./impacts/hit-spark.js";
@@ -104,6 +109,8 @@ import * as impacts_impact_frame from "./impacts/impact-frame.js";
 import * as impacts_parry from "./impacts/parry.js";
 import * as impacts_ricochet from "./impacts/ricochet.js";
 import * as impacts_shield_block from "./impacts/shield-block.js";
+import * as impacts_spear_body_hit from "./impacts/spear-body-hit.js";
+import * as impacts_sword_body_hit from "./impacts/sword-body-hit.js";
 import * as projectiles_arrow from "./projectiles/arrow.js";
 import * as projectiles_bullet_tracer from "./projectiles/bullet-tracer.js";
 import * as projectiles_cannonball from "./projectiles/cannonball.js";
@@ -213,6 +220,8 @@ import * as ui_level_up from "./ui/level-up.js";
 import * as ui_quest_complete from "./ui/quest-complete.js";
 import * as pickups_chest_open from "./pickups/chest-open.js";
 import * as pickups_coin_spin from "./pickups/coin-spin.js";
+import * as pickups_coin_spiral_sparkle from "./pickups/coin-spiral-sparkle.js";
+import * as pickups_coin_star_pop from "./pickups/coin-star-pop.js";
 import * as pickups_collect_burst from "./pickups/collect-burst.js";
 import * as pickups_crystal_shard from "./pickups/crystal-shard.js";
 import * as pickups_gem_spin from "./pickups/gem-spin.js";
@@ -275,7 +284,9 @@ export const effects = {
   "explosions/barrel-explosion": explosions_barrel_explosion,
   "explosions/big-explosion": explosions_big_explosion,
   "explosions/cartoon-pow": explosions_cartoon_pow,
+  "explosions/directional-fire-burst": explosions_directional_fire_burst,
   "explosions/dirt-explosion": explosions_dirt_explosion,
+  "explosions/fire-lance-burst": explosions_fire_lance_burst,
   "explosions/firework-burst": explosions_firework_burst,
   "explosions/firework-rocket": explosions_firework_rocket,
   "explosions/grenade": explosions_grenade,
@@ -341,10 +352,13 @@ export const effects = {
   "melee/thrust": melee_thrust,
   "melee/uppercut": melee_uppercut,
   "melee/whip-crack": melee_whip_crack,
+  "impacts/axe-body-hit": impacts_axe_body_hit,
   "impacts/blunt-hit": impacts_blunt_hit,
   "impacts/bullet-impact": impacts_bullet_impact,
   "impacts/crit-hit": impacts_crit_hit,
+  "impacts/dagger-body-hit": impacts_dagger_body_hit,
   "impacts/ground-slam": impacts_ground_slam,
+  "impacts/hammer-body-hit": impacts_hammer_body_hit,
   "impacts/heavy-landing": impacts_heavy_landing,
   "impacts/hit-flash": impacts_hit_flash,
   "impacts/hit-spark": impacts_hit_spark,
@@ -352,6 +366,8 @@ export const effects = {
   "impacts/parry": impacts_parry,
   "impacts/ricochet": impacts_ricochet,
   "impacts/shield-block": impacts_shield_block,
+  "impacts/spear-body-hit": impacts_spear_body_hit,
+  "impacts/sword-body-hit": impacts_sword_body_hit,
   "projectiles/arrow": projectiles_arrow,
   "projectiles/bullet-tracer": projectiles_bullet_tracer,
   "projectiles/cannonball": projectiles_cannonball,
@@ -461,6 +477,8 @@ export const effects = {
   "ui/quest-complete": ui_quest_complete,
   "pickups/chest-open": pickups_chest_open,
   "pickups/coin-spin": pickups_coin_spin,
+  "pickups/coin-spiral-sparkle": pickups_coin_spiral_sparkle,
+  "pickups/coin-star-pop": pickups_coin_star_pop,
   "pickups/collect-burst": pickups_collect_burst,
   "pickups/crystal-shard": pickups_crystal_shard,
   "pickups/gem-spin": pickups_gem_spin,

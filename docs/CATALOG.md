@@ -1,6 +1,6 @@
 # Catalog
 
-244 effects in 21 categories. Every one is a file in
+253 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -50,7 +50,9 @@ blasts, smoke, fireworks, mushroom clouds.
 | Barrel explosion | `explosions/barrel-explosion` | one-shot 5.2s | 300×240 | An explosive barrel shudders, its lid bulging and spitting flame, then blows: a fireball column, staves and the lid flying, burning fuel splashed over the floor. |
 | Big explosion | `explosions/big-explosion` | one-shot 7.2s | 360×300 | A huge ground blast in three beats: a white dome, a rolling fireball that climbs into a mushrooming smoke column, heavy rocks, and fires left burning. |
 | Cartoon POW | `explosions/cartoon-pow` | one-shot 1.05s | 184×144 | A comic-book hit: a jagged two-tone burst star slams in with a shake and boiling edges, POW! drops in letter by letter, action lines fly, then it all snaps away. |
+| Directional fire burst | `explosions/directional-fire-burst` | one-shot 1.1s | 224×128 | A muzzle spark grows into a rolling, one-way flame jet with a cream-hot heart, then bursts into embers and dark red smoke. |
 | Dirt explosion | `explosions/dirt-explosion` | one-shot 3.6s | 260×240 | A buried charge goes off: a flash under the floor, a V of dirt clods and grit thrown high, a brown dust plume that billows and settles, and a crater left behind. |
+| Fire lance burst | `explosions/fire-lance-burst` | one-shot 1.35s | 220×144 | A pinprick at the muzzle grows into a one-way, rolling lance of fire; the tip blossoms, throws sparks and cools into dark smoke. |
 | Firework burst | `explosions/firework-burst` | one-shot 3.6s | 240×248 | A shell climbs, slows and bursts into a sphere of coloured trailing stars round a gold core; they droop, crackle into white pops and fade, leaving glitter. |
 | Firework rocket | `explosions/firework-rocket` | one-shot 3.8s | 300×300 | A rocket fizzes off the ground on a sparkling gold trail, coasts, and bursts into a palm: heavy gold fronds arc out, droop on glittering trails and crackle at the tips. |
 | Grenade | `explosions/grenade` | one-shot 4.2s | 300×200 | A grenade is lobbed in, bounces, rolls to a stop with its fuse fizzing, shudders, then blows: a white flash, shrapnel streaks, sparks, a small fireball and a scorch. |
@@ -158,10 +160,13 @@ hit sparks, shockwaves, landings.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Axe body hit | `impacts/axe-body-hit` | one-shot 0.78s | 100×92 | Heavy orange chips and hot flecks burst away from a close axe hit, rising briefly before dropping under their weight. |
 | Blunt hit | `impacts/blunt-hit` | one-shot 0.9s | 128×88 | A heavy, soft thud: a white-hot lumpy blob cools to cream in a warm pool of light, inked wedges jab out and snap back, a squashed ring of dust puffs swells and drifts, clods drop. |
 | Bullet impact | `impacts/bullet-impact` | one-shot 1.4s | 152×100 | A bullet hits a wall on the right: a hot half-star, sparks sprayed back in a cone, a puff of grit, chips that fall and bounce, a pock mark cooling to soot. |
 | Critical hit | `impacts/crit-hit` | one-shot 0.9s | 216×136 | A critical hit: a jagged starburst slams in white and overshoots, a ring breaks into flying arcs, sparks streak off, shards tumble to the floor under a big flare. |
+| Dagger body hit | `impacts/dagger-body-hit` | one-shot 0.57s | 100×92 | A compact spray of tiny red flecks and bright droplets slips from the ribs, fast and close to the target. |
 | Ground slam | `impacts/ground-slam` | one-shot 3.2s | 288×208 | Something lands hard: the floor flashes and cracks, two crescent shock waves race out along it, a dust wave and a tall dust cloud rise, rocks erupt, bounce and settle. |
+| Hammer body hit | `impacts/hammer-body-hit` | one-shot 0.88s | 100×92 | A broad, weighty spray of pale dust and blunt chips pushes out from the sternum, then drops quickly. |
 | Heavy landing | `impacts/heavy-landing` | one-shot 1.6s | 176×80 | A character lands hard: the floor dents and cracks under their feet, two rings of dust roll out along the floor one after the other, and pebbles hop away. |
 | Hit flash | `impacts/hit-flash` | one-shot 0.5s | 80×64 | The character takes damage: a white frame, then their own colors flushed red and blinking white, cooling off, while comic hit lines jab in at them. |
 | Hit spark | `impacts/hit-spark` | one-shot 0.5s | 136×80 | The everyday hit: a sharp, lopsided cross flare with one long ray along the blow round a white diamond core, then a cone of sparks and hot chips that fall and bounce. |
@@ -169,6 +174,8 @@ hit sparks, shockwaves, landings.
 | Parry | `impacts/parry` | one-shot 1s | 200×112 | Two blades clash: their edges flash in an X, a white four-point star rings out, a ring breaks into arcs and a fan of gold sparks sprays up and rains down. |
 | Ricochet | `impacts/ricochet` | one-shot 1.1s | 232×84 | A tracer streaks down onto the floor, glances off with a white-hot star and skips away at an angle, leaving a glowing skid while sparks skitter along the ground. |
 | Shield block | `impacts/shield-block` | one-shot 1.1s | 148×104 | A blow is caught on a half-dome of energy in front of the character: its diamond lattice flashes, a ripple runs over it, sparks glance off, then it blinks out cell by cell. |
+| Spear body hit | `impacts/spear-body-hit` | one-shot 0.62s | 100×92 | A tight forward spray of icy metal sparks punches out from the chest, with only a few slower chips trailing behind. |
+| Sword body hit | `impacts/sword-body-hit` | one-shot 0.62s | 100×92 | Thin silver shavings fan diagonally away from the target's torso, with a few white glints following the blade's direction. |
 
 ## projectiles
 
@@ -348,6 +355,8 @@ coins, gems, chests, potions.
 |---|---|---|---|---|
 | Chest open | `pickups/chest-open` | one-shot 4.6s | 176×112 | A banded chest rattles with gold light leaking from its seam, the lid kicks open, rays fan up, and coins and gems arc out, bounce, glint and get collected. |
 | Coin spin | `pickups/coin-spin` | loop 1.6s | 56×56 | A thick gold coin turning on its edge: an embossed star face, a reeded rim showing as it goes edge-on, a flash sweeping the face, bobbing over its shadow. |
+| Coin spiral sparkle | `pickups/coin-spiral-sparkle` | one-shot 1.05s | 80×76 | Two gold spirals curl into a coin, meet in a white glint, then unwind as rising motes. |
+| Coin star pop | `pickups/coin-star-pop` | one-shot 0.82s | 80×76 | A coin snaps into a white star, two gold rings and eight small glints thrown radially outward. |
 | Collect burst | `pickups/collect-burst` | one-shot 1.35s | 112×108 | The moment of pickup: a white flash and a cross of light, a thin ring snapping out ahead of a softer one, twinkles thrown wide on curving paths that brake, hang and wink out. |
 | Crystal shard | `pickups/crystal-shard` | loop 3.2s | 64×76 | A broken amber shard hovers and sways: chipped uneven faces, its top sheared off, light pulsing up through glowing cracks and flaring out of the break; splinters orbit it. |
 | Gem spin | `pickups/gem-spin` | loop 2.4s | 64×64 | A brilliant-cut ruby turning on its axis: real facets catch the light in turn, flashes roll over the crown, refracted light slides across the floor, sparkles wink round it. |
