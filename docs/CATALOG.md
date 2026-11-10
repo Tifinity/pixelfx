@@ -1,6 +1,6 @@
 # Catalog
 
-263 effects in 21 categories. Every one is a file in
+264 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -244,6 +244,7 @@ heals, halos, pillars of light.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Aegis ring | `holy/aegis-ring` | one-shot 3.2s | 256×136 | Gold light sinks into the floor and a ring rolls out; the ground turns to a standing circle of light, shafts and gold crests stand up round it, then it breaks into glitter. |
 | Blessing | `holy/blessing` | loop 3s | 80×128 | A soft cone of light rests on the character from above; sparkles drift down through it, twinkling, and wink out where they land on the head and shoulders. |
 | Divine shield | `holy/divine-shield` | loop 2.4s | 88×84 | A bubble of gold light round the character: a bright rim and a thin gold film, meridians turning like a slow globe, a sheen sweeping across and sparkles winking on it. |
 | Feather burst | `holy/feather-burst` | one-shot 3s | 160×160 | A white puff pops and throws feathers that brake hard, then rock from side to side as they sink and fade, with down drifting after them. |
