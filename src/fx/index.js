@@ -40,8 +40,13 @@ import * as explosions_small_explosion from "./explosions/small-explosion.js";
 import * as explosions_smoke_bomb from "./explosions/smoke-bomb.js";
 import * as water_bubbles from "./water/bubbles.js";
 import * as water_drip from "./water/drip.js";
+import * as water_fan_sweep from "./water/fan-sweep.js";
 import * as water_fountain from "./water/fountain.js";
 import * as water_geyser from "./water/geyser.js";
+import * as water_hydro_shock from "./water/hydro-shock.js";
+import * as water_pressure_blast from "./water/pressure-blast.js";
+import * as water_pressure_lance from "./water/pressure-lance.js";
+import * as water_pressure_volley from "./water/pressure-volley.js";
 import * as water_rain_splash from "./water/rain-splash.js";
 import * as water_ripples from "./water/ripples.js";
 import * as water_splash from "./water/splash.js";
@@ -297,8 +302,13 @@ export const effects = {
   "explosions/smoke-bomb": explosions_smoke_bomb,
   "water/bubbles": water_bubbles,
   "water/drip": water_drip,
+  "water/fan-sweep": water_fan_sweep,
   "water/fountain": water_fountain,
   "water/geyser": water_geyser,
+  "water/hydro-shock": water_hydro_shock,
+  "water/pressure-blast": water_pressure_blast,
+  "water/pressure-lance": water_pressure_lance,
+  "water/pressure-volley": water_pressure_volley,
   "water/rain-splash": water_rain_splash,
   "water/ripples": water_ripples,
   "water/splash": water_splash,

@@ -1,6 +1,6 @@
 # Catalog
 
-253 effects in 21 categories. Every one is a file in
+258 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -70,8 +70,13 @@ splashes, falls, fountains, waves.
 |---|---|---|---|---|
 | Bubbles | `water/bubbles` | loop 4s | 104×112 | Bubbles stream up from a vent of pebbles, wobbling and swelling as they rise, flare as they cross shafts of light from the surface, then dome up and pop there. |
 | Drip | `water/drip` | loop 1.6s | 72×88 | A bead swells under a wet stone tip and catches the light, pinches off, falls stretched by its speed and plinks into a puddle with a crown, a ring and a tiny rebound. |
+| Fan sweep | `water/fan-sweep` | loop 2.2s | 300×154 | A high-pressure fan sweeps a stone wall: a sheet of jets plays up and down, the bright impact point races across the stone, water sheets off it and the wall stays soaked. |
 | Fountain | `water/fountain` | loop 2s | 120×104 | A stone basin; a jet rises from its spout and blooms into glassy arcs that break into beads, fall back and plink into the water with rings. |
 | Geyser | `water/geyser` | one-shot 5s | 184×168 | A pool heaves and burbles faster and faster, then blasts a white column of water skyward with a churning foam head; it rains back down in drops and steam, slumps and sputters out. |
+| Hydro shock | `water/hydro-shock` | one-shot 1.18s | 232×188 | A high-pressure water round bursts at contact: a white heart, a torn radial crown of water, broken pressure rings, a burst of spray and heavy drops raining onto the floor. |
+| Pressure blast | `water/pressure-blast` | one-shot 1.28s | 250×150 | A high-pressure water cannon lets go: a thick, ragged column with a white core and a churning foam head, spray torn off its flanks and the gun kicked back in its blowback. |
+| Pressure lance | `water/pressure-lance` | one-shot 1.14s | 306×104 | A needle-thin jet punches through a stone slab: a white-hot line, pressure hoops racing along it, a spray sheet off the entry hole and a burst of water out the far side. |
+| Pressure volley | `water/pressure-volley` | one-shot 1.5s | 268×126 | Three high-pressure water slugs hit a wooden target in quick succession: each leaves as a white comet, slams the planks and blooms into a crown of water as the board gets wetter. |
 | Rain splash | `water/rain-splash` | loop 2.4s | 176×80 | A low close-up on one puddle in the rain: big drops land in crowns that throw beads and a rebound jet, rings spread and interfere, a lamp's reflection wobbles on the water. |
 | Ripples | `water/ripples` | loop 2s | 136×52 | A drop plinks on still dark water and rings spread out across it at a low angle: the swell of each ring catches the light, crests glint, and they fade into the calm. |
 | Splash | `water/splash` | one-shot 2.5s | 176×100 | A stone drops into still water: a white hit, a crown that tears into droplets arcing out to plink down with rings, a jet that bounces back, foam and drifting mist. |
