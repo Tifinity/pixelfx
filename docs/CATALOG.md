@@ -1,6 +1,6 @@
 # Catalog
 
-258 effects in 21 categories. Every one is a file in
+263 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -280,6 +280,7 @@ burning, frozen, poisoned, asleep.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Blaze | `status/blaze` | loop 1s | 88×96 | Burning hard: flames stand all over the body, shoulder to boot, in back-lit fire and rolling smoke; every 0.5 s it flares, the body flashes white, scorches and embers pour off. |
 | Bleeding | `status/bleeding` | loop 2.4s | 60×56 | Bleeding out: beads swell at three wounds, run, let go and fall to spatter into a glossy pool that ripples; each heartbeat spurts a little and flashes the body red. |
 | Burning | `status/burning` | loop 1.2s | 72×80 | Burning over time: small flames lick from four hot spots, trailing sparks and thin smoke; every 0.6 s they flare, the body flashes white then orange, scorch marks spread. |
 | Charmed | `status/charmed` | loop 2.4s | 60×76 | Smitten: a big heart beats over the head, throwing a ring and a flush of light with every beat, little hearts float up, the eyes go pink and the cheeks blush. |
@@ -287,11 +288,15 @@ burning, frozen, poisoned, asleep.
 | Cursed | `status/cursed` | loop 2.4s | 64×84 | Hexed: violet smoke rises off the body in winding trails, a dark stain creeps up from the feet with a glowing edge, the eyes burn, a skull glitches in overhead. |
 | Frozen | `status/frozen` | loop 2s | 72×64 | Chilled to the bone: frost ferns creep over the body, icicles hang from chin and hands and drip, breath steams, snow settles, a shiver every second, frost spreads underfoot. |
 | Haste | `status/haste` | loop 1.2s | 100×56 | Sped up: striped after-images stream out behind, speed lines whip past, dust kicks off the heels and the leading edge catches the wind. Faces right. |
+| Hellfire | `status/hellfire` | loop 1.2s | 88×96 | A cursed burn: violet fire with a hollow black heart licks off the whole body, black smoke rises, embers sink and die; every 0.6 s it flares and the body flashes white-violet. |
+| Ignite | `status/ignite` | one-shot 0.9s | 88×96 | The moment a burn lands: the body snaps white, fire bursts off the shoulders and head, sparks and smoke fly, a ring of heat spreads, then it is gone and only the burn is left. |
 | Petrified | `status/petrified` | one-shot 3.8s | 120×74 | Turned to stone: grey creeps up from the feet behind a crackling edge that spits grit, the statue holds, cracks run through it, and it bursts into tumbling chunks and dust. |
 | Poisoned | `status/poisoned` | loop 1.6s | 72×64 | Sick to the bone: green rolls up the body in waves, dark veins creep from a wound, toxic sweat drips and hisses; every 0.8 s it wobbles, blisters pop and a ring pulses out. |
 | Rage | `status/rage` | loop 1.2s | 80×80 | Seething: the body judders on every heartbeat, an anger mark throbs at the temple, eyes burn, steam jets off the head, stress lines flash out and the floor cracks hot underfoot. |
+| Singe | `status/singe` | loop 1.6s | 72×80 | A light burn: a flame on the shoulder and a few licking along the sleeve, thin smoke, an ember now and then; every 0.8 s they flare, the cloth glows and a char spot opens. |
 | Sleep | `status/sleep` | loop 2.4s | 60×82 | Fast asleep: eyes shut, soft outlined Zs float up off the head one after another, swaying and growing as they rise, dream motes drift, a slow breathing glow. |
 | Slowed | `status/slowed` | loop 2.4s | 64×76 | Dragged through time: a glassy clock dial behind the head ticks round in heavy steps, flashing with each, while drops sink in slow motion and spread slow rings. |
+| Smolder | `status/smolder` | loop 2.4s | 76×84 | Burning out: no flame left, just a dull red glow crawling over the charred body, thick slow smoke, ash flaking off and embers dying on the outlines; every 1.2 s it breathes hotter. |
 | Stunned | `status/stunned` | loop 2s | 60×64 | Seeing stars: three spinning stars and two little birds circle the head on a tilted ring, ducking behind it and sweeping round in front, trailing glitter. |
 
 ## nature

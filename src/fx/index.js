@@ -173,6 +173,7 @@ import * as shadow_shadow_flames from "./shadow/shadow-flames.js";
 import * as shadow_shadow_tendrils from "./shadow/shadow-tendrils.js";
 import * as shadow_soul_drain from "./shadow/soul-drain.js";
 import * as shadow_void_orb from "./shadow/void-orb.js";
+import * as status_blaze from "./status/blaze.js";
 import * as status_bleeding from "./status/bleeding.js";
 import * as status_burning from "./status/burning.js";
 import * as status_charmed from "./status/charmed.js";
@@ -180,11 +181,15 @@ import * as status_confused from "./status/confused.js";
 import * as status_cursed from "./status/cursed.js";
 import * as status_frozen from "./status/frozen.js";
 import * as status_haste from "./status/haste.js";
+import * as status_hellfire from "./status/hellfire.js";
+import * as status_ignite from "./status/ignite.js";
 import * as status_petrified from "./status/petrified.js";
 import * as status_poisoned from "./status/poisoned.js";
 import * as status_rage from "./status/rage.js";
+import * as status_singe from "./status/singe.js";
 import * as status_sleep from "./status/sleep.js";
 import * as status_slowed from "./status/slowed.js";
+import * as status_smolder from "./status/smolder.js";
 import * as status_stunned from "./status/stunned.js";
 import * as nature_acid_splash from "./nature/acid-splash.js";
 import * as nature_boulder from "./nature/boulder.js";
@@ -435,6 +440,7 @@ export const effects = {
   "shadow/shadow-tendrils": shadow_shadow_tendrils,
   "shadow/soul-drain": shadow_soul_drain,
   "shadow/void-orb": shadow_void_orb,
+  "status/blaze": status_blaze,
   "status/bleeding": status_bleeding,
   "status/burning": status_burning,
   "status/charmed": status_charmed,
@@ -442,11 +448,15 @@ export const effects = {
   "status/cursed": status_cursed,
   "status/frozen": status_frozen,
   "status/haste": status_haste,
+  "status/hellfire": status_hellfire,
+  "status/ignite": status_ignite,
   "status/petrified": status_petrified,
   "status/poisoned": status_poisoned,
   "status/rage": status_rage,
+  "status/singe": status_singe,
   "status/sleep": status_sleep,
   "status/slowed": status_slowed,
+  "status/smolder": status_smolder,
   "status/stunned": status_stunned,
   "nature/acid-splash": nature_acid_splash,
   "nature/boulder": nature_boulder,

@@ -4,7 +4,7 @@
 
 # pixelfx.
 
-**<!-- count -->258<!-- /count --> pixel art effects and animations, every one a small piece of code.** Fire,
+**<!-- count -->263<!-- /count --> pixel art effects and animations, every one a small piece of code.** Fire,
 explosions, magic, weather, UI, pickups, critters and more. Play them live, recolor and mirror them, drop them into
 a browser game, or export sprite sheets for any engine. Plus a Claude Code skill that makes new ones the way a
 picky pixel artist would: draft, render, look, refine.
@@ -41,7 +41,7 @@ the idea at library scale, with a skill to keep going.
 | **arcane** | 12 | arcane beam, arcane missiles, arcane orb, blink in, blink out, magic circle cast… |
 | **holy** | 10 | blessing, divine shield, feather burst, halo, heal, healing ring… |
 | **shadow** | 12 | black hole, curse, dark explosion, eclipse, grasping hands, hex sigil… |
-| **status** | 13 | bleeding, burning, charmed, confused, cursed, frozen… |
+| **status** | 18 | blaze, bleeding, burning, charmed, confused, cursed… |
 | **nature** | 13 | acid splash, boulder, earth spike, healing bloom, leaf storm, poison cloud… |
 | **weather** | 12 | aurora, blizzard, cherry blossoms, clouds, falling leaves, fireflies… |
 | **ui** | 12 | achievement, coin collect, combo counter, confetti, countdown, crit number… |
@@ -101,7 +101,7 @@ node tools/render.mjs fire/torch --gif --opts '{"palette": ["#102","#215","#43a"
 </p>
 
 An effect on its own looks like a sticker. What sells a hit is the body around it: the wind-up that says something is
-coming, the freeze on contact, the target rocking back, the recovery. So the 61 effects with a character, and the 12
+coming, the freeze on contact, the target rocking back, the recovery. So the 71 effects with a character, and the 12
 moves, say what the body does and when:
 
 ```js
