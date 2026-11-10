@@ -21,7 +21,7 @@ const SY = 0.2, SEED = 0.32, ROLL = 0.95, RISE = 0.55, HOLD = 2.0, BREAK = 2.4, 
 
 // a shield crest: the shape every ward in this style wears
 const CREST = [".###.", "#####", "#####", "#####", ".###.", "..#.."];
-const BOSS = new Set(["2,2", "2,3", "3,2", "3,3"]);
+const BOSS = new Set(["1,2", "2,2", "3,2", "4,2"]);
 
 export function create(o) {
   const C = fit(o.palette, 8), REACH = o.reach, R = new Rng(o.seed);
@@ -36,7 +36,7 @@ export function create(o) {
   // gold crests rise where the ward catches a unit
   const sites = Array.from({ length: 5 }, (_, i) => {
     const a = (i / 5) * TAU + R.range(-0.3, 0.3), d = REACH * R.range(0.38, 0.8);
-    return { x: Math.cos(a) * d, z: Math.sin(a) * d, t0: SEED + 0.5 + R.range(0, 0.5), life: R.range(1.1, 1.45), rise: R.range(9, 15), sway: R.range(0, TAU), s: 2, back: Math.sin(a) < -0.1, popped: false };
+    return { x: Math.cos(a) * d, z: Math.sin(a) * d, t0: SEED + 0.5 + R.range(0, 0.5), life: R.range(1.1, 1.45), rise: R.range(10, 17), sway: R.range(0, TAU), s: 3, back: Math.sin(a) < -0.1, popped: false };
   });
   const riders = Array.from({ length: 16 }, (_, i) => ({ a: (i / 16) * TAU + R.range(-0.2, 0.2), w: R.range(0.5, 1) * (i % 2 ? 1 : -1) }));
   // two rings of standing light: a tall outer palisade and shorter posts inside it
