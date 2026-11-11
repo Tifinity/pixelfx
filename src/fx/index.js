@@ -187,6 +187,7 @@ import * as status_ignite from "./status/ignite.js";
 import * as status_petrified from "./status/petrified.js";
 import * as status_poisoned from "./status/poisoned.js";
 import * as status_rage from "./status/rage.js";
+import * as status_seething from "./status/seething.js";
 import * as status_singe from "./status/singe.js";
 import * as status_sleep from "./status/sleep.js";
 import * as status_slowed from "./status/slowed.js";
@@ -455,6 +456,7 @@ export const effects = {
   "status/petrified": status_petrified,
   "status/poisoned": status_poisoned,
   "status/rage": status_rage,
+  "status/seething": status_seething,
   "status/singe": status_singe,
   "status/sleep": status_sleep,
   "status/slowed": status_slowed,

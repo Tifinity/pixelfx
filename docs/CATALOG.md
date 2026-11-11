@@ -1,6 +1,6 @@
 # Catalog
 
-264 effects in 21 categories. Every one is a file in
+265 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -294,6 +294,7 @@ burning, frozen, poisoned, asleep.
 | Petrified | `status/petrified` | one-shot 3.8s | 120×74 | Turned to stone: grey creeps up from the feet behind a crackling edge that spits grit, the statue holds, cracks run through it, and it bursts into tumbling chunks and dust. |
 | Poisoned | `status/poisoned` | loop 1.6s | 72×64 | Sick to the bone: green rolls up the body in waves, dark veins creep from a wound, toxic sweat drips and hisses; every 0.8 s it wobbles, blisters pop and a ring pulses out. |
 | Rage | `status/rage` | loop 1.2s | 80×80 | Seething: the body judders on every heartbeat, an anger mark throbs at the temple, eyes burn, steam jets off the head, stress lines flash out and the floor cracks hot underfoot. |
+| Seething | `status/seething` | loop 1.2s | 80×80 | Seething: the body judders on every heartbeat, steam jets off the head and shoulders, an anger mark throbs at the temple, stress lines flash out. No fire, no floor. |
 | Singe | `status/singe` | loop 1.6s | 72×80 | A light burn: a flame on the shoulder and a few licking along the sleeve, thin smoke, an ember now and then; every 0.8 s they flare, the cloth glows and a char spot opens. |
 | Sleep | `status/sleep` | loop 2.4s | 60×82 | Fast asleep: eyes shut, soft outlined Zs float up off the head one after another, swaying and growing as they rise, dream motes drift, a slow breathing glow. |
 | Slowed | `status/slowed` | loop 2.4s | 64×76 | Dragged through time: a glassy clock dial behind the head ticks round in heavy steps, flashing with each, while drops sink in slow motion and spread slow rings. |
