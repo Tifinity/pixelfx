@@ -174,6 +174,7 @@ import * as shadow_shadow_flames from "./shadow/shadow-flames.js";
 import * as shadow_shadow_tendrils from "./shadow/shadow-tendrils.js";
 import * as shadow_soul_drain from "./shadow/soul-drain.js";
 import * as shadow_void_orb from "./shadow/void-orb.js";
+import * as status_armor_guard from "./status/armor-guard.js";
 import * as status_blaze from "./status/blaze.js";
 import * as status_bleeding from "./status/bleeding.js";
 import * as status_burning from "./status/burning.js";
@@ -443,6 +444,7 @@ export const effects = {
   "shadow/shadow-tendrils": shadow_shadow_tendrils,
   "shadow/soul-drain": shadow_soul_drain,
   "shadow/void-orb": shadow_void_orb,
+  "status/armor-guard": status_armor_guard,
   "status/blaze": status_blaze,
   "status/bleeding": status_bleeding,
   "status/burning": status_burning,
