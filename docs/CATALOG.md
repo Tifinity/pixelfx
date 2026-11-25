@@ -281,6 +281,7 @@ burning, frozen, poisoned, asleep.
 
 | effect | id | | size | what it does |
 |---|---|---|---|---|
+| Armor guard | `status/armor-guard` | 3.38s | 72×60 | Forged armor snaps into place with sparks, then three embossed plates orbit the waist. |
 | Blaze | `status/blaze` | loop 1s | 88×96 | Burning hard: flames stand all over the body, shoulder to boot, in back-lit fire and rolling smoke; every 0.5 s it flares, the body flashes white, scorches and embers pour off. |
 | Bleeding | `status/bleeding` | loop 2.4s | 60×56 | Bleeding out: beads swell at three wounds, run, let go and fall to spatter into a glossy pool that ripples; each heartbeat spurts a little and flashes the body red. |
 | Burning | `status/burning` | loop 1.2s | 72×80 | Burning over time: small flames lick from four hot spots, trailing sparks and thin smoke; every 0.6 s they flare, the body flashes white then orange, scorch marks spread. |
